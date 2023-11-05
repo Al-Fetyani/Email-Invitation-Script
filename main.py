@@ -1,7 +1,9 @@
-import pandas as pd
 from docx import Document
+from email.utils import formataddr
+import pandas as pd
 import smtplib
 from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 
 def fill_invitation(template_path, output_path, data):
@@ -34,7 +36,10 @@ def generate_invitation(csv_path, template_path):
 
 
 def send_email(csv_path, subject, username, password, body):
-    msg = MIMEText(body, "plain", "utf-8")
+    msg = MIMEMultipart()
+    msg["Subject"] = subject
+    msg["From"] = formataddr(("Al-Fetyani", username))
+    msg.attach(MIMEText(body, "plain", "utf-8"))
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
     server.login(username, password)
