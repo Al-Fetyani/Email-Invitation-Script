@@ -1,7 +1,10 @@
 # Email Invitation Script
 
 This script automates the process of sending email invitations using a CSV file and a Word document template.
-
+## Installation
+```
+git clone https://github.com/Al-Fetyani/template_email_sender.git
+```
 ## Prerequisites
 
 Make sure you have Python installed on your machine. Additionally, install the required packages using Pipenv.
