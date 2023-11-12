@@ -19,7 +19,7 @@ pipenv run python main.py --email your_email@gmail.com --password your_email_pas
 ```
 Note: If you don't provide the email password as a command-line argument, the script will securely prompt you to enter it.
 
-## Gmail Password https://support.google.com/mail/answer/185833?hl=en
+## [Gmail Password](https://support.google.com/mail/answer/185833?hl=en)
 * Go to your Google Account.
 * Select Security.
 * Under "Signing in to Google," select 2-Step Verification.
