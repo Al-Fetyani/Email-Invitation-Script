@@ -11,16 +11,16 @@ pipenv install
 ```
 # Usage
 
-1- Populate the contacts.csv file with the necessary information.\n
-2- Customize the template.docx file for the invitation content.
-3- Run the script with the following command:
+* Populate the contacts.csv file with the necessary information.
+* Customize the template.docx file for the invitation content.
+* Run the script with the following command:
 ```
 pipenv run python main.py --email your_email@gmail.com --password your_email_password
 ```
 Note: If you don't provide the email password as a command-line argument, the script will securely prompt you to enter it.
 
-CSV Format
-Ensure that the CSV file (contacts.csv) has the following columns:
+# CSV Format
+Ensure that the CSV file (contacts.csv) has the following columns (you can edit them with placeholders in template.docx file):
 
 salutation
 first_name
@@ -28,7 +28,8 @@ last_name
 last_contacted
 company
 email
-Template Format
+
+# Template Format
 The Word document template (template.docx) should contain placeholders in square brackets that match the column names in the CSV.
 
 Example placeholders in the template:
