@@ -22,13 +22,12 @@ pipenv run python main.py --email your_email@gmail.com --password your_email_pas
 ```
 Note: If you don't provide the email password as a command-line argument, the script will securely prompt you to enter it.
 
-## [Gmail Password](https://support.google.com/mail/answer/185833?hl=en)
-* Go to your Google Account.
-* Select Security.
-* Under "Signing in to Google," select 2-Step Verification.
-* At the bottom of the page, select App passwords.
-* Enter a name that helps you remember where you'll use the app password.
-* Select Generate.
+## [Gmail Password](https://myaccount.google.com/apppasswords?pli=1&rapt=AEjHL4Po7vgONUOI9GvrgnMxd85STlPGEVkCCPSaoBvFNKnFV1RVYzcz0fB_y2uO_37g5p0KRt0ZoYzip4KqvR4GY-IbsRzEtqsFLv8sDgsoew6m6-kEw8Q)
+* Go to Manage Google Account.
+* Search for App passwords.
+* Add name to remember what is password for.
+* Click create.
+* Copy.
 
 ## CSV Format
 Ensure that the CSV file (contacts.csv) has the following columns (you can edit them with placeholders in template.docx file):
