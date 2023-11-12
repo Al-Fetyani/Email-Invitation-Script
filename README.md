@@ -9,7 +9,7 @@ Make sure you have Python installed on your machine. Additionally, install the r
 ```
 pipenv install
 ```
-# Usage
+## Usage
 
 * Populate the contacts.csv file with the necessary information.
 * Customize the template.docx file for the invitation content.
@@ -19,7 +19,15 @@ pipenv run python main.py --email your_email@gmail.com --password your_email_pas
 ```
 Note: If you don't provide the email password as a command-line argument, the script will securely prompt you to enter it.
 
-# CSV Format
+## Gmail Password https://support.google.com/mail/answer/185833?hl=en
+* Go to your Google Account.
+* Select Security.
+* Under "Signing in to Google," select 2-Step Verification.
+* At the bottom of the page, select App passwords.
+* Enter a name that helps you remember where you'll use the app password.
+* Select Generate.
+
+## CSV Format
 Ensure that the CSV file (contacts.csv) has the following columns (you can edit them with placeholders in template.docx file):
 
 * salutation
@@ -29,7 +37,7 @@ Ensure that the CSV file (contacts.csv) has the following columns (you can edit 
 * company
 * email
 
-# Template Format
+## Template Format
 The Word document template (template.docx) should contain placeholders in square brackets that match the column names in the CSV.
 
 Example placeholders in the template:
