@@ -11,7 +11,7 @@ pipenv install
 ```
 # Usage
 
-1- Populate the contacts.csv file with the necessary information.
+1- Populate the contacts.csv file with the necessary information.\n
 2- Customize the template.docx file for the invitation content.
 3- Run the script with the following command:
 ```
