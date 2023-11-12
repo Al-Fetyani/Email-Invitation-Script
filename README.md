@@ -22,23 +22,23 @@ Note: If you don't provide the email password as a command-line argument, the sc
 # CSV Format
 Ensure that the CSV file (contacts.csv) has the following columns (you can edit them with placeholders in template.docx file):
 
-salutation
-first_name
-last_name
-last_contacted
-company
-email
+* salutation
+* first_name
+* last_name
+* last_contacted
+* company
+* email
 
 # Template Format
 The Word document template (template.docx) should contain placeholders in square brackets that match the column names in the CSV.
 
 Example placeholders in the template:
 
-[Salutation]
-[First Name]
-[Last Name]
-[Last Contacted]
-[Company Name]
+* [Salutation]
+* [First Name]
+* [Last Name]
+* [Last Contacted]
+* [Company Name]
 
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
