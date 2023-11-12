@@ -52,5 +52,3 @@ Example placeholders in the template:
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-This README file provides users with information about how to use your script, what prerequisites are needed, and any other relevant details.
