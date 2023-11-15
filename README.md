@@ -28,6 +28,7 @@ Note: If you don't provide the email password as a command-line argument, the sc
 * Add name to remember what is password for.
 * Click create.
 * Copy.
+* important ----- > remove spaces.
 
 ## CSV Format
 Ensure that the CSV file (contacts.csv) has the following columns (you can edit them with placeholders in template.docx file):
